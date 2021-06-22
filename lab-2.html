@@ -43,16 +43,18 @@
         courseNumber=0
        alert(courseNumber)
       
-      function addCourseNumber(letters)
+      function addCourseNumber(point);
       {
         courseNumber++;
-        grades = grades + letters;
+        grades += letters;
       }
-      function getGPA ()
+      
+      function getGPA ();
       {
-        GPA = (grades/courseNumber)
+        GPA = (grades / courseNumber);
+        return GPA
       }
-      alert ("Calculated GPA" = GPA)
+      alert getGPA
     </script>
   </head>
 </html>
